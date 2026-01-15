@@ -1,21 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Northstar Sales Agent</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
   <h1>Northstar Copilot – Sales Proposal Agent</h1>
 
   <div class="container">
-    <div id="chat"></div>
-    <textarea id="input"></textarea>
-    <button onclick="send()">Send</button>
+    <div class="panel">
+      <h3>Copilot Chat</h3>
+      <div id="chat" class="box"></div>
 
-    <div id="proposal"></div>
-    <div id="crm"></div>
+      <textarea id="input" placeholder="Type your message..."></textarea>
+      <button onclick="send()">Send</button>
+    </div>
+
+    <div class="panel">
+      <h3>Proposal Document</h3>
+      <div id="proposal" class="box"></div>
+
+      <h3>CRM Context</h3>
+      <pre id="crm" class="box"></pre>
+    </div>
   </div>
 
   <script src="app.js"></script>
 </body>
-</html>

@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  #chat, #proposal, #crm {
+    border: 1px solid black;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  

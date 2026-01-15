@@ -1,0 +1,19 @@
+{
+    "customers": [
+      {
+        "id": "C001",
+        "name": "Acme Corp",
+        "industry": "Manufacturing",
+        "contact": "john@acme.com",
+        "dealSize": 50000
+      },
+      {
+        "id": "C002",
+        "name": "BlueWave Ltd",
+        "industry": "Finance",
+        "contact": "sara@bluewave.com",
+        "dealSize": 75000
+      }
+    ]
+  }
+  

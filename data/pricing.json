@@ -1,0 +1,15 @@
+{
+    "products": [
+      {
+        "name": "Northstar Analytics",
+        "pricePerYear": 20000,
+        "discountEnterprise": 0.15
+      },
+      {
+        "name": "Northstar CRM",
+        "pricePerYear": 15000,
+        "discountEnterprise": 0.1
+      }
+    ]
+  }
+  

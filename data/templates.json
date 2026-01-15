@@ -1,0 +1,4 @@
+{
+    "default": "Sales Proposal\n\nClient: {{client}}\nIndustry: {{industry}}\nProduct: {{product}}\nPrice: ${{price}}\nTimeline: {{timeline}}\n\nOverview:\n{{overview}}\n\nTerms:\nPayment annually. Valid for 30 days."
+  }
+  

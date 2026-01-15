@@ -88,4 +88,5 @@ Your job:
   });
 });
 
-app.listen(3000, () => console.log("Agent running on http://localhost:3000"));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log("Agent running on port " + PORT));
